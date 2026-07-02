@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <h2>Sports Physical Form</h2>
+        <form action="actionpage.html" method="get">
+            <fieldset><legend><h4>Athlete Information</h4></legend>
+                <ul>
+                    <li><label for="name"><strong>Name:</strong></label>
+                        <input type="text" name="username" id="name">
+                    </li>
+                    <li><label
+                            for="School/Team"><strong>School/Team:</strong></label>
+                        <input type="text" name="username" id="name">
+                    </li>
+                    <li><label for="Sports"><strong>Sports:</strong></label>
+                        <input type="text" name="username" id="name">
+                    </li>
+                    <li><label
+                            for="Parents/Guardian_Name"><strong>Parents/Guardian
+                                Name:</strong></label>
+                        <input type="text" name="username" id="name">
+                    </li>
+                    <li><label for="Contact_Number"><strong>Contact
+                                Number:</strong></label>
+                        <input type="number" name="username" id="number">
+                    </li>
+                </ul></fieldset>
+            <fieldset><legend><h4> Medical History for
+                        Athlete</h4></legend>
+                <ul>
+                    <li><label for="History_of_concussion"><strong>History of
+                                concussion:</strong></label>
+                        <input type="radio" name="History_of_concussion"
+                            id="History_of_concussion_yes"
+                            value="History_of_concussion_yes">
+                        <label
+                            for="History_of_concussion_yes"><strong>Yes</strong></label>
+                        <input type="radio" name="History_of_concussion"
+                            id="History_of_concussion_no"
+                            value="History_of_concussion_no">
+                        <label
+                            for="History_of_concussion_no"><strong>No</strong></label>
+                    </li>
+                    <li><label for="Previous_Surgeries"><strong>Previous
+                                Surgeries:</strong>
+                            <input type="text" name="username" id="name">
+                        </label>
+                        <li><label for="Any_bone_fractures"><strong>Any bone
+                                    fractures?</strong></label>
+                            <input type="radio" name="Any_bone_fractures"
+                                id="Any_bone_fractures_yes"
+                                value="Any_bone_fractures_yes">
+                            <label
+                                for="Any_bone_fractures_yes"><strong>Yes</strong></label>
+                            <input type="radio" name="Any_bone_fractures"
+                                id="Any_bone_fractures_no"
+                                value="Any_bone_fractures_no">
+                            <label
+                                for="Any_bone_fractures_no"><strong>No</strong></label>
+                        </li>
+                        <li><label
+                                for="Asthama_or_breathing_problems"><strong>Asthama
+                                    or breathing problems:</strong></label>
+                            <input type="radio" name="answer"
+                                id="Asthama_or_breathing_problems"
+                                value="yes">
+                            <label
+                                for="Asthama_or_breathing_problems"><strong>Yes</strong></label>
+                            <input type="radio" name="answer"
+                                id="Asthama_or_breathing_problems_no"
+                                value="no">
+                            <label
+                                for="Asthama_or_breathing_problems_no"><strong>No</strong></label>
+                        </li>
+                    </ul>
+                </label></fieldset>
+            <fieldset>
+                <legend>Select your Department</legend>
+                <select name="Department_name" id="Department">
+                    <option value="null">Select</option>
+                    <option value="CSE">CSE</option>
+                    <option value="Cyber">Cyber</option>
+                    <option value="AIML">AIML</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend><strong>Select your Hobbies</strong></legend>
+                <input type="checkbox" name="Football" id="football"
+                    value="hobbies1">
+                <label for="Football">Football</label>
+                <input type="checkbox" name="Cricket" id="Cricket"
+                    value="hobbies2">
+                <label for="Cricket">Cricket</label>
+                <input type="checkbox" name="Travelling" id="Travelling"
+                    value="hobbies3">
+                <label for="Travelling">Travelling</label>
+            </fieldset>
+            <fieldset><legend><h4>Doctor's Recomendation for sports
+                        Partition</h4></legend>
+            </fieldset>
+            <fieldset>
+                <legend><strong>Information</strong></legend>
+                <label for="Text">Address:</label>
+
+                <textarea id="Text" name="Text" rows="3" cols="25"
+                    placeholder="Enter your text here..."></textarea><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"
+                    placeholder="Enter your email"><br><br>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password"
+                    placeholder="Enter your password"><br><br>
+
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" min="1"
+                    max="100"><br><br>
+
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob"><br><br>
+
+                <label for="time">Preferred Time:</label>
+                <input type="time" id="time" name="time"><br><br>
+
+                <label for="meeting">Meeting Date & Time:</label>
+                <input type="datetime-local" id="meeting"
+                    name="meeting"><br><br>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="3" cols="25"
+                    placeholder="Enter your message"></textarea><br><br>
+                </fieldset>
+
+                <fieldset>
+                    <legend><strong>File</strong></legend>
+                <label for="file">Choose a file:</label>
+                <input type="file" id="file" name="file"><br><br>
+
+                <label for="Profile_image">Upload a image:</label>
+                <input type="file" id="Profile_image" name="Profile_image" accept=".jpg,.jpeg,.png"><br><br>
+
+                <label for="Resume">Choose a Resume:</label>
+                <input type="file" id="Resume" name="Resume" accept=".pdf"><br><br>
+
+                <label for="word_file">Choose a Word file:</label>
+                <input type="file" id="word_file" name="word_file" accept=".docx"><br><br>
+
+                <label for="excel_file">Choose a Excel file:</label>
+                <input type="file" id="excel_file" name="excel_file" accept=".xlxs"><br><br>
+                </fieldset>
+            
+            <button type="submit">Form Submit</button>
+        </form>
+    </body>
+</html>

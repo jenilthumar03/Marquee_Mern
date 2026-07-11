@@ -23,30 +23,47 @@
         text-align: center;
       }
 
-      .sub-headings {
-        background-color: ghostwhite;
-        padding: 5px;
-        border: 1px solid gray;
-        border-radius: 10px;
-        margin: 10px;
-      }
-
       .headings {
         color: skyblue;
         border-bottom: 2px solid;
         border-right: 2px solid;
       }
+
+      .chatbot > img{
+        height: 70px;
+        width: 70px;
+        position: fixed;
+        bottom: 10px;
+        right: 20px;
+      }
+
+      #top-section {
+        background-color: bisque;
+        position: sticky;
+        top: 0px;
+        z-index: 1000;
+        text-align: center;
+        border: 2px solid;
+      }
+      
+      .links>a{
+        padding-left: 20px;
+        font-size: 20px;
+      }
     </style>
   </head>
   <body>
+    <div class="chatbot">
+      <img src="chatbot" alt="">
+    </div>
     <!-- Top Level Information -->
      <header id="top-section">
-      <nav>
-        <a href="#sub-heading-1">1. Fees Structure</a><br>
-        <a href="#sub-heading-2">Topic 2</a><br>
-        <a href="#sub-heading-3">Topic 3</a><br>
-        <a href="#sub-heading-4">Topic 4</a><br>
-        <a href="#sub-heading-5">Topic 5</a><br>
+      <nav class="links">
+        <a href="#sub-heading-1">1. Fees Structure</a>
+        <a href="#sub-heading-2">Topic 2</a>
+        <a href="#sub-heading-3">Topic 3</a>
+        <a href="#sub-heading-4">Topic 4</a>
+        <a href="#sub-heading-5">Topic 5</a>
       </nav>
      </header>
     <section></section>

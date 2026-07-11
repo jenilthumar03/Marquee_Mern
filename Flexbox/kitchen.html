@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+            integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style>
+        .container {
+            border: 1px solid #000;
+            width: 80vw;
+            height: auto;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: flex-start;
+            margin: 0 auto;
+        }
+
+        .card {
+            flex: 1;
+            /* max-width: 350px; */
+            text-align: left;
+            margin: 20px;
+        }
+
+        .card:nth-child(2) {
+            margin-left: auto;
+            /* margin-right: auto; */
+        }
+
+        .card:last-child {
+            margin-left: auto;
+        }
+
+        .card img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            display: block;
+        }
+
+        .card h3 {
+            margin: 20px 0 15px;
+            font-size: 25px;
+        }
+
+        .card p {
+            max-width: 100%;
+            font-size: 18px;
+            line-height: 1.3;
+            color: #555;
+        }
+
+            body{
+    background:#fff;
+}
+
+.why-us{
+    width:90%;
+    margin:50px auto;
+    text-align:center;
+}
+
+.why-us h2{
+    font-size:35px;
+    color:#4d4d7c;
+}
+
+.line{
+    width:60px;
+    height:4px;
+    background:#ff6b35;
+    margin:10px auto 40px;
+}
+
+.container2{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+}
+
+.box{
+    flex:1;
+    padding:20px;
+    border-right:1px solid #ddd;
+}
+
+.box:last-child{
+    border-right:none;
+}
+
+.icon{
+    font-size:40px;
+    color:#999;
+    margin-bottom:15px;
+}
+
+.box h4{
+    color:#ff6b35;
+    margin-bottom:5px;
+    margin-top: 10px;
+}
+
+.box h1{
+    color:#ff6b35;
+    font-size:42px;
+    margin-bottom:10px;
+    margin-top: 0px;
+}
+
+.box p{
+    color:#666;
+    font-size:15px;
+    line-height:1.5;
+}
+
+
+
+    </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="card">
+                <div><img src="images.jpg" alt="kitchen">
+                    <h3>Kitchen Remodels</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Incidunt rerum distinctio. Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Labore voluptate mollitia
+                        architecto, unde nobis quam id laboriosam officiis!
+                        Moles</p>
+                </div>
+            </div>
+            <div class="card">
+                <div><img src="image1.jpg" alt="window">
+                    <h3>Windows</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Incidunt rerum distinctio.Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Labore voluptate mollitia
+                        architecto, unde nobis quam id laboriosam officiis!
+                        Moles </p>
+                </div>
+            </div>
+            <div class="card">
+                <div><img src="images2.jpg" alt="deck">
+                    <h3>Decks & Porches</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Incidunt rerum distinctio. Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Labore voluptate mollitia
+                        architecto, unde nobis quam id laboriosam officiis!
+                        Moles</p>
+                </div>
+            </div>
+        </div>
+
+        <!DOCTYPE html>
+
+<section class="why-us">
+
+    <h2>Why Choose Us</h2>
+    <div class="line"></div>
+
+    <div class="container2">
+
+        <div class="box">
+            <i class="fa-solid fa-location-dot icon"></i>
+            <h4>We have</h4>
+            <h1>2</h1>
+            <p>Central locations in London and Dublin</p>
+        </div>
+
+        <div class="box">
+            <i class="fa-regular fa-comments icon"></i>
+            <h4>Over</h4>
+            <h1>95%</h1>
+            <p>Of students would recommend us to a friend</p>
+        </div>
+
+        <div class="box">
+            <i class="fa-regular fa-file-lines icon"></i>
+            <h4>We are</h4>
+            <h1>100%</h1>
+            <p>Accredited by the British Council and ACELS</p>
+        </div>
+
+        <div class="box">
+            <i class="fa-regular fa-thumbs-up icon"></i>
+            <h4>We have a</h4>
+            <h1>95%</h1>
+            <p>Exam Pass Rate for our students</p>
+        </div>
+
+    </div>
+
+</section>
+
+    </body>
+
+</html>

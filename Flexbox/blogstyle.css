@@ -1,0 +1,110 @@
+* {
+    margin-top: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy, sans-serif;
+}
+
+html,
+body {
+    height: 100vh;
+    width: auto;
+}
+p {
+    margin-top: 10px;
+}
+h4 {
+    margin-bottom: 0;
+}
+h1 {
+    color: rgb(15, 15, 121);
+}
+
+.header {
+    text-align: center;
+    margin: 20px;
+}
+
+.container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card-container {
+    width: 300px;
+    height: auto;
+    display: flex;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 15px 5px #888888;
+}
+.quote {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    border-radius: 50%;
+    top: -40px;
+    right: -40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote i {
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left: -30px;
+    color: aliceblue;
+}
+
+.content {
+    text-align: center;
+    margin: 20px 10px;
+}
+
+.para {
+    margin: 30px;
+}
+
+.img > img {
+    height: 60px;
+    width: 60px;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    border-radius: 50%;
+}
+
+.whatsapp > i {
+    height: 40px;
+    width: 30px;
+    position: fixed;
+    left: 30px;
+    bottom: 20px;
+    font-size: 45px;
+}
+
+.notify {
+    background-color: red;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    position: fixed;
+    right: 30px;
+    bottom: 70px;
+    text-align: center;
+}
+
+.notification {
+    background-color: red;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    position: fixed;
+    left: 55px;
+    bottom: 65px;
+    text-align: center;
+}

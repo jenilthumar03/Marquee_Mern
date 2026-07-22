@@ -205,6 +205,10 @@ body {
     border-bottom: 1px solid #dcdcdc;
     overflow: scroll;
     overflow-y: hidden;
+    display: grid;
+    grid-auto-rows: 80px;
+    grid-auto-columns: 80px;
+    grid-auto-flow: column;
 }
 
 .category {
@@ -243,7 +247,7 @@ body {
 .active::after {
     content: "";
     position: absolute;
-    bottom: -7px;
+    bottom: -16px;
     width: 100%;
     height: 3px;
     background: #2874f0;
